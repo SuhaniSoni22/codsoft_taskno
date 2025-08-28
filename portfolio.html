@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhani Soni | CSE Student & Future Tech Creator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle">
+    <label for="theme-toggle" class="theme-label">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </label>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#" class="logo">Suhani.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Suhani Soni</h1>
+            <p class="tagline">CSE Student • Curious Mind • Future Tech Creator</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#resume" class="btn btn-outline">Download Resume</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm Suhani Soni, a CSE student at Samrat Ashok Technological Institute, passionate about tech, creativity, and learning. I'm curious about how things work — whether it's coding, building websites, or exploring AI.</p>
+                    <p>I've been learning and working with Python, C, HTML, and CSS, and I enjoy turning ideas into real projects. I love collaborating with teams, trying new things, and growing with every experience.</p>
+                    <p>Currently, I'm exploring opportunities that help me grow as a student and future tech creator. Let's connect and build something exciting! 🚀</p>
+                </div>
+                <div class="about-education">
+                    <div class="education-item">
+                        <h3>Education</h3>
+                        <p><strong>B.Tech in Computer Science and Engineering — 2nd Year</strong></p>
+                        <p>Samrat Ashok Technological Institute</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Experience</h3>
+                        <p>Currently gaining experience through academic learning, personal projects, and skill-building.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-badge">
+                    <i class="fab fa-python"></i> Python
+                </div>
+                <div class="skill-badge">
+                    <i class="fas fa-code"></i> C
+                </div>
+                <div class="skill-badge">
+                    <i class="fab fa-html5"></i> HTML
+                </div>
+                <div class="skill-badge">
+                    <i class="fab fa-css3-alt"></i> CSS
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="text-center">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        Weather Forecast App
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Forecast Web App</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenWeatherMap API</span>
+                        </div>
+                        <p>A simple, responsive weather web app where users can search a city to see current weather, temperature, humidity, wind, and an icon. Includes basic error handling and loading states.</p>
+                        <div class="project-links">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container resume-section">
+            <h2>Resume</h2>
+            <p>Feel free to download my resume to learn more about my education, skills, and experience.</p>
+            <a href="resumes.pdf" class="btn">Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>suhanisoni839gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91-9516294101</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/SuhaniSoni22" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/suhani-soni-596635316" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>© 2025 Suhani Soni. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html>
